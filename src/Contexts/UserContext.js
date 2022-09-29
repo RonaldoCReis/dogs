@@ -44,7 +44,6 @@ export const UserStorage = ({ children }) => {
       navigate('/conta');
     } catch (err) {
       setError(err.message);
-      console.log(err);
       setLogin(false);
     } finally {
       setLoading(false);
